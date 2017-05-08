@@ -4,7 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "\"${tool 'MSBuild'}\" WebApplication2.sln /p:Configuration=Debug /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER} /t:Package"
+                bat "\"${tool 'MSBuild'}\" WebApplication2.sln /p:Configuration=Debug /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
+                bat "2.lnk"
             }
         }
         stage('Test') {
@@ -19,3 +20,6 @@ pipeline {
         }
     }
 }
+
+
+"C:\Program Files (x86)\MSBuild\12.0\Bin\MSBuild.exe" WebApplication2.csproj /p:Configuration=Debug /p:Platform="Any CPU" /p:ProductVersion=1.0.0.9 /T:Package /p:VisualStudioVersion=13.0

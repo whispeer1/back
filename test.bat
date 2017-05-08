@@ -1,0 +1,1 @@
+C:\Windows\System32\inetsrv\Appcmd.exe add site /name:MyLovelyNewWebsite /id:10 /physicalPath:H:\WORK\jenkins\workspace\another_master-23JS2PHNO3MHSTSIHDTQRRQ5VPMOCPCIZAQ7Y6LSGVS5JAII3QNA\WebApplication2 /bindings:http://localhost:83

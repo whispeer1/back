@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                bat "2.lnk"
+                sh ".\1.ps1"
             }
         }
         stage('Test') {

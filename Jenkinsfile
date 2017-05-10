@@ -4,6 +4,11 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+            if (env.BRANCH_NAME != 'master') {
+                echo 'I only execute on the master branch'
+                return 1;
+            }
+        }
                 bat "2.lnk"
             }
         }

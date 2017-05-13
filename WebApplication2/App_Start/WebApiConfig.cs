@@ -13,6 +13,7 @@ namespace WebApplication2
 
             // Маршруты веб-API
             config.MapHttpAttributeRoutes();
+            config.EnableCors();
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",

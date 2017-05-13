@@ -15,3 +15,6 @@ C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplicatio
 C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
 C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Cors.dll
+C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Http.Cors.dll
+C:\Users\nik\documents\visual studio 2013\Projects\WebApplication2\WebApplication2\bin\System.Web.Http.Cors.xml

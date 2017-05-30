@@ -11,8 +11,8 @@ namespace WebApplication2.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     [RoutePrefix("api")]
 
-    public class DefaultController : ApiController
-    {
+    public class DefaultController : ApiController{
+   
         [Route("get")] 
         public string Get() {
             return "one branch (new)222 ";

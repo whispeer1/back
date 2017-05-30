@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\MSBuild\12.0\Bin\msbuild.exe" WebApplication2.sln /target:Clean /target:Build /p:Configuration=Debug
